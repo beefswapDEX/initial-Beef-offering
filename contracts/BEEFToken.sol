@@ -1,5 +1,5 @@
 /**Beefswap Platform
-	*Beefswap is a one stop decentralized trading platform on Binance Smart Chain that helps users swap between two tokens! 
+  *Beefswap is a one stop decentralized trading platform on Binance Smart Chain that helps users swap between two tokens! 
   We combine DEX services with DEFI, NFT and GameFi, one a platform you can trust.
   BEEF Metaverse is a crypto world for users to trade, earn, and play. It's the best choice for newborn projects 
   on Binance Smart Chain to get support, including AMM, NFT, and GameFi.*
