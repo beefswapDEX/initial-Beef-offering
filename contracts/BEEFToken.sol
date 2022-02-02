@@ -1232,6 +1232,11 @@ contract BEEFToken is BEP20('Beefswap', 'BEEF') {
             }
         }
     }
+    function withdrawStuckBNB() external onlyOwner {
+    payable(msg.sender).transfer(address(this).balance);
+    }
+
+	receive() external payable {}
 
     function _writeCheckpoint(
         address delegatee,
