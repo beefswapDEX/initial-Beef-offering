@@ -814,9 +814,9 @@ contract IBO is Ownable, ReentrancyGuard {
         uint256 released; // currently released token amount
     }
 
-    uint256 public constant ROUNDS_COUNT = 6; // gold, bronze, silver, iron, whitelist, fcfs
-    uint256[] public roundsPercents = [1000, 400, 200, 100];
-    uint256 public allocationMultiplier = 1700;
+    uint256 public constant ROUNDS_COUNT = 2; // Unlimited Sale, Basic Sales
+    uint256[] public roundsPercents = [700, 300];
+    uint256 public allocationMultiplier = 1000;
     bool public whitelistEnabled;
     mapping(address => bool) public isTierWhitelisted;
 
@@ -991,9 +991,9 @@ contract IBO is Ownable, ReentrancyGuard {
     /**
      * @notice setBaseData
      *
-     * @param _startTime {uint256}  timestamp of IDO start time
-     * @param _endTime {uint256}  timestamp of IDO end time
-     * @param _claimTime {uint256}  timestamp of IDO claim time
+     * @param _startTime {uint256}  timestamp of IBO start time
+     * @param _endTime {uint256}  timestamp of IBO end time
+     * @param _claimTime {uint256}  timestamp of IBO claim time
      * @param _minFundAmount {uint256}  mimimum fund amount of users
      * @param _baseAmount {uint256}  baseAmount of buy
      * @param _meta {string}  url of meta data
